@@ -18,7 +18,7 @@ if [ $# -lt 1 ]; then
 	if [ $? -eq 0 ];then
 	    echo -e "  [$i] \t $line"
 	    i=$((i+1))
-	elif [[ "$line" != "\r\n" ]];then
+	else
 	    echo "$line" 
 	fi
     done
