@@ -1,13 +1,3 @@
-NOTE: AVOID USING THIS TOOL (Probably)
-========
-A week or so in to this and I present our first example of a bad tool.
-
-To paraphrase why this is a bad tool:
-
-- It solves a trivial problem
-- It adds a process that the screen session runs in.  This is messy and means all input and output to/ from the screen session is redirected through this process.
-
-
 ScreenTools
 ===========
 
