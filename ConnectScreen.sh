@@ -21,7 +21,7 @@ if [ $# -lt 1 ]; then
 	    echo "$line" 
 	fi
     done
-    echo  "Choose which session you want (1-${#sessions[@]}): " 
+    echo  -n "Choose which session you want (1-${#sessions[@]}): " 
     #Read value from stdin
     read SELECTED
 else 
